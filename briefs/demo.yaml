@@ -1,0 +1,23 @@
+title: The Last Knight
+style: dark fantasy, desaturated, volumetric fog, anamorphic
+world:
+  biome: ruined_city
+  time_of_day: dusk
+  weather: fog
+characters:
+  - name: Knight
+    prompt: a lone armored knight, weathered plate armor, torn cape, longsword, realistic
+    animations: [idle, walk]
+shots:
+  - type: dolly
+    duration: 5
+    subject: Knight
+    notes: wide establishing shot, knight walks toward camera through fog
+  - type: orbit
+    duration: 4
+    subject: Knight
+    notes: slow orbit at chest height, ruined towers behind
+  - type: crane
+    duration: 6
+    subject: Knight
+    notes: rise up and reveal the city skyline at dusk
